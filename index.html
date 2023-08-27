@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title>DJ: To-Do List</title>
+</head>
+
+<body>
+
+    <div class="app center">
+        <h1>To-Do List 
+            <i class="fa-solid fa-list-check"></i>
+        </h1>
+        <div class="input-header">
+        <h2><span id="date"></span></h2>
+            <!-- Task input and button -->
+            <form class="to-do-input">
+                <input id="addItem" type="text" placeholder="Write your task here:"/>
+                <button id="addBtn" type="submit">
+                    Add
+                    <i class="fa-solid fa-square-check"></i>
+                </button>
+            </form>
+        </div>
+        <section class="task-list-area">
+            <div class="to-do-list"></div>
+        </section>
+    </div>
+
+        <script src="script.js" async></script>
+
+</body>
+
+</html>
